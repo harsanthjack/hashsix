@@ -1,5 +1,8 @@
 {
   "name": "credai",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

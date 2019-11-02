@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>otp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<p text-align="center">Enter Your Otp</p>
+<form [formGroup]="otp" (ngSubmit)="otp_detail()">
+<ion-item>
+  <ion-label position="stacked">Otp</ion-label>
+  <ion-input type="text" formControlName="otp1"> </ion-input>
+</ion-item>
+<button ion-button type="submit" [disabled]="!otp.valid">submit</button>
+</form>
+</ion-content>
